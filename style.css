@@ -1,32 +1,65 @@
+:root {
+  --primary: #22223b;
+  --accent: #4a4e69;
+  --light: #f2e9e4;
+  --highlight: #9a8c98;
+  --text: #333;
+}
+
 body {
-  font-family: system-ui, sans-serif;
+  font-family: 'Segoe UI', sans-serif;
   margin: 0;
-  padding: 0 1rem;
-  background: #f4f4f4;
-  color: #333;
-  max-width: 800px;
+  padding: 0;
+  background: var(--light);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 900px;
   margin: auto;
+  padding: 2rem;
 }
 
 header, footer {
   text-align: center;
-  padding: 2rem 0;
+  background: var(--primary);
+  color: white;
+  padding: 2rem 1rem;
 }
 
 header h1 {
   margin: 0;
-  font-size: 2em;
+  font-size: 2.5rem;
 }
 
-main section {
-  margin-bottom: 2rem;
+nav {
+  background: var(--accent);
+  padding: 1rem;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 1rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+section {
+  margin-bottom: 3rem;
 }
 
 h2 {
-  border-bottom: 1px solid #ccc;
+  color: var(--accent);
+  border-bottom: 2px solid var(--highlight);
   padding-bottom: 0.3rem;
 }
+
 a {
-  color: #0066cc;
-  text-decoration: none;
+  color: var(--accent);
+}
+
+footer {
+  font-size: 0.9rem;
 }
