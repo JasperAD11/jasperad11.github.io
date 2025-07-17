@@ -1,9 +1,9 @@
 :root {
-  --primary: #22223b;
-  --accent: #4a4e69;
-  --light: #f2e9e4;
-  --highlight: #9a8c98;
-  --text: #333;
+  --primary: #722F37;     /* Wine Red */
+  --accent: #4B6F44;      /* Earthy Green */
+  --light: #F5F3EF;       /* Creamy light background */
+  --highlight: #D9CAB3;   /* Optional tan highlight */
+  --text: #2E2E2E;
 }
 
 body {
@@ -45,6 +45,7 @@ nav a {
   text-decoration: none;
   font-weight: bold;
 }
+
 
 section {
   margin-bottom: 3rem;
