@@ -1,85 +1,125 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Chasing Purpose</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Jasper — Chasing Purpose</title>
+  <meta name="description" content="Personal site for projects, journals, and passions: nature & travel, basketball, and business analytics." />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header>
-    <h1>Chasing Purpose</h1>
-    <p>Documenting the journey through creativity, code, and community.</p>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container">
+      <h1>Jasper Sänger</h1>
+      <p class="tagline">Nature & travel • Basketball • Business analytics • Notes on the path</p>
+    </div>
   </header>
 
-  <nav>
-    <a href="#about">About</a>
-    <a href="#projects">Projects</a>
-    <a href="#journals">Journals</a>
-    <a href="#photos">Photos</a>
-    <a href="#basketball">Basketball Vision</a>
-    <a href="#contact">Contact</a>
+  <nav class="site-nav" aria-label="Primary">
+    <div class="container">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#journals">Journals</a>
+      <a href="#photos">Photos</a>
+      <a href="#timeline">Timeline</a>
+      <a href="#basketball">Basketball Vision</a>
+      <a href="#contact">Contact</a>
+    </div>
   </nav>
 
-  <div class="container">
+  <main id="main" class="container">
     <section id="about">
       <h2>About Me</h2>
-      <p>Hey, I’m Jasper. I build things, document thoughts, and follow ideas that matter. This site is a growing archive of that pursuit — through code, creativity, and purpose-driven ideas.</p>
+      <p>Hey, I’m Jasper. I build things, document thoughts, and follow ideas that matter. This site is a growing archive of that pursuit—through code, creativity, and purpose-driven ideas.</p>
     </section>
 
     <section id="projects">
       <h2>Projects</h2>
       <p>Web apps, digital experiments, and ideas in motion. I document what I build, why I built it, and what I learn along the way.</p>
+
+      <div class="grid">
+        <!-- Replace # with real links -->
+        <article class="card">
+          <h3><a href="#" rel="noopener">Foundations of Statistics (R)</a></h3>
+          <p>Airbnb Plus impact analysis using EDA, hypothesis tests, and Difference-in-Differences.</p>
+        </article>
+
+        <article class="card">
+          <h3><a href="#" rel="noopener">Intro to Programming (Python)</a></h3>
+          <p>Three assignments: functional, definition-based, and object-oriented programming.</p>
+        </article>
+
+        <article class="card">
+          <h3><a href="#" rel="noopener">CS50 Exercises</a></h3>
+          <p>Selected Python exercises (~30% of course). Small utilities and practice scripts.</p>
+        </article>
+      </div>
     </section>
 
     <section id="journals">
       <h2>Journals</h2>
-      <p>Notes and reflections from different chapters — the wins, the fails, and everything in between.</p>
+      <ul class="list">
+        <li><strong>Chasing Purpose:</strong> on momentum, consistency, and small bets.</li>
+        <li><strong>Field notes:</strong> travel, nature, and what the trail teaches.</li>
+        <li><strong>Build logs:</strong> bite-size entries while shipping.</li>
+      </ul>
     </section>
-    
+
     <section id="photos">
       <h2>Photo Gallery</h2>
       <div class="gallery">
-        <img src="https://via.placeholder.com/300" alt="Placeholder 1">
-        <img src="https://via.placeholder.com/300" alt="Placeholder 2">
-        <img src="https://via.placeholder.com/300" alt="Placeholder 3">
-        <img src="https://via.placeholder.com/300" alt="Placeholder 4">
+        <img src="https://via.placeholder.com/600x400" alt="Landscape" loading="lazy">
+        <img src="https://via.placeholder.com/600x400" alt="City scene" loading="lazy">
+        <img src="https://via.placeholder.com/600x400" alt="On the court" loading="lazy">
+        <img src="https://via.placeholder.com/600x400" alt="Travel moment" loading="lazy">
       </div>
     </section>
 
-<section id="timeline">
-  <h2>Timeline</h2>
-  <ul class="timeline">
-    <li><strong>2022:</strong> Learned web dev basics & started small projects</li>
-    <li><strong>2023:</strong> Launched “Chasing Purpose” and began building in public</li>
-    <li><strong>2024:</strong> Started basketball community concept & prototyping</li>
-    <li><strong>2025:</strong> This is the year it gets real — growing the brand, launching more</li>
-  </ul>
-</section>
+    <section id="timeline">
+      <h2>Timeline</h2>
+      <ul class="timeline">
+        <li><strong>2022:</strong> Learned web dev basics & started small projects.</li>
+        <li><strong>2023:</strong> Launched “Chasing Purpose” and began building in public.</li>
+        <li><strong>2024:</strong> Started basketball community concept & prototyping.</li>
+        <li><strong>2025:</strong> Focused on shipping—growing the brand and launching more.</li>
+      </ul>
+    </section>
 
+    <section id="basketball">
+      <h2>Basketball Vision</h2>
+      <p>Every time I step on the court, time disappears—competition, team flow, and pure joy. That feeling has been with me since age five.</p>
+      <p>In 2023 at BEAT81, I met fellow hoopers Mikel and Tristen. Pickup games after work in Berlin, then Lisbon—rough courts, fading light, but no one wanted to stop. The game pulls you into flow.</p>
+      <p>The vision: a community hub built around love for the game—great energy, music, culture, and people. Add cardio and bodyweight training to make it accessible. Blend basketball with movement and create a space where time is meant to be lost—on purpose.</p>
+      <p>It fuses hip hop, black culture, inclusivity, swag, music, and creativity. A playground for adults who want to play like kids—and kids who want to dream like pros. The idea is evolving and open to collaborators.</p>
+      <p><em>At its core: love for basketball, community, and the kind of joy that makes you forget the clock.</em></p>
+    </section>
 
-<section id="basketball">
-  <h2>Basketball Vision</h2>
-  <p>
-    Every time I step on the court, time disappears. I’m fully there — heart racing, mind sharp, body in motion. It’s the competition, the team dynamic, the workout, and the unexplainable joy of just playing. I’ve felt this way since I started organized basketball at age 5 — and it’s never left me.
-  </p>
-  <p>
-    In 2023, while working at BEAT81, I met Mikel and Tristen — two fellow basketball fanatics. We’d play pickup games after work in Berlin on a rough court, but we didn’t care. The love for the game made everything else irrelevant. I moved to Lisbon and found the same story again — bad court, sunset light fading, bodies aching, but no one wanted to stop. That’s what the game does to you. It pulls you into flow.
-  </p>
-  <p>
-    Out of this passion came a vision: to build a basketball space for everyone. Not just another court — a community hub built on love for the game. Imagine a vibrant court with great energy, music, culture, and people. Add-ons like cardio workouts or bodyweight training make it accessible to those who want to hoop *and* stay fit. Combine basketball with general movement and create a space where time is meant to be lost — on purpose.
-  </p>
-  <p>
-    We imagine a place that fuses basketball with creativity: hip hop, black culture, inclusivity, swag, music, movement. A playground for adults who want to play like kids — and kids who want to dream like pros. This idea is evolving, growing, and ready for collaborators who believe in its soul.
-  </p>
-  <p><em>At its core: love for basketball, community, and the kind of joy that makes you forget what time it is.</em></p>
-</section>
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Say hi or ask about a project: <a href="mailto:hello@yourdomain.com">hello@yourdomain.com</a></p>
+      <!-- You can swap this mailto with Formspree later -->
+    </section>
+  </main>
 
-  </div>
-
-  <footer>
-    <p>&copy; 2025 Jasper | Chasing Purpose</p>
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2025 Jasper — Chasing Purpose</p>
+    </div>
   </footer>
+
+  <script>
+    // Smooth scroll for in-page links
+    document.querySelectorAll('a[href^="#"]').forEach(a => {
+      a.addEventListener('click', (e) => {
+        const id = a.getAttribute('href').slice(1);
+        const el = document.getElementById(id);
+        if (el) { e.preventDefault(); el.scrollIntoView({ behavior: 'smooth' }); }
+      });
+    });
+  </script>
 </body>
 </html>
+
 
