@@ -1,14 +1,15 @@
 :root{
-  --primary:#722F37;     /* wine red */
-  --accent:#4B6F44;      /* earthy green */
-  --muted:#6A5D7D;       /* muted earthy purple (subtle) */
-  --light:#F5F3EF;       /* cream */
-  --highlight:#D9CAB3;   /* tan */
-  --ink:#2E2E2E;
-  --ink-muted:#555;
+  --primary:#B33A3F;     /* rich brushstroke red */
+  --accent:#243026;      /* seam charcoal with olive tint */
+  --muted:#8A4B52;       /* dusty rose-plum */
+  --light:#F6EDE8;       /* soft canvas */
+  --highlight:#F0C9B8;   /* peachy highlight */
+  --ink:#231A1A;         /* deep umber */
+  --ink-muted:#5C3D3F;   /* muted red-brown */
   --radius:14px;
   --shadow:0 6px 20px rgba(0,0,0,.08);
 }
+
 
 *{box-sizing:border-box}
 
