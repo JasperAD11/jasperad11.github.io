@@ -1,14 +1,15 @@
-:root{
-  --primary:#B33A3F;     /* rich brushstroke red */
-  --accent:#243026;      /* seam charcoal with olive tint */
-  --muted:#8A4B52;       /* dusty rose-plum */
-  --light:#F6EDE8;       /* soft canvas */
-  --highlight:#F0C9B8;   /* peachy highlight */
-  --ink:#231A1A;         /* deep umber */
-  --ink-muted:#5C3D3F;   /* muted red-brown */
-  --radius:14px;
-  --shadow:0 6px 20px rgba(0,0,0,.08);
+:root {
+  --primary: #B33A3F;       /* rich brushstroke red */
+  --accent: #1A1A1A;        /* near-black charcoal */
+  --muted: #8A4B52;         /* dusty rose-plum */
+  --light: #F9F2DD;         /* warm soft canvas with a hint of yellow */
+  --highlight: #F0C9B8;     /* peachy highlight */
+  --ink: #231A1A;           /* deep umber */
+  --ink-muted: #5C3D3F;     /* muted red-brown */
+  --radius: 14px;
+  --shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
 }
+
 
 
 *{box-sizing:border-box}
